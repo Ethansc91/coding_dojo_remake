@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #121212;
+}
+
+#container {
+    width: 1900px;
+    margin: 0 auto;
+}
+
+/* display flex section */
+
+#nav-bar, #nav-left, #nav-right, #nav-right ul, #top-nav-body, #top-left, #web-fun, #progress, #on-time,
+#out-of, .tracks-content, .tracks, .belt-images, .belt-desc, #belt-container, #middle-main-content,
+#top-right, #pre-web, .services-web, #major, .other-tracks, #other-container, #unlock {
+    display: flex;
+}
+
+/* Nav bar */
+
+#nav-bar {
+    margin: 0 auto;
+    padding: 25px 275px;
+    border-bottom: 1px solid #1E2022;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Nav bar left content */
+
+#nav-left {
+    align-items: center;
+}
+
+#nav-left h1, #nav-left p {
+    color: #fff;
+}
+
+#nav-left p {
+    font-size: 19px;
+}
+
+.arrow:not(:first-child) {
+    margin: 0px 20px 0px 40px;
+}
+
+.arrow:first-child {
+    margin-right: 10px;
+}
+
+.arrow {
+    height: 15px;
+}
+
+/* Nav bar right content */
+
+#nav-right {
+    align-items: center;
+}
+
+
+.user-icon {
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+#nav-right ul {
+    width: 255px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#nav-right input {
+    background-color: #121212;
+    padding: 13px 0px;
+    margin-right: 45px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
+.link-nav {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.one {
+    color: #81A0EA;
+}
+
+.two {
+    color: gray;
+}
+
+/* Main Body */
+
+#main-body {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+/* Top nav body */
+
+#top-nav-body {
+    margin-top: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-img {
+    height: 25px;
+    width: 25px;
+}
+
+#top-nav-body button {
+    background-color: #292929;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+select {
+    color: #fff;
+    margin-left: 40px;
+    padding: 13px 55px 13px 5px;
+    border-radius: 25px;
+    background-color: #292929;
+}
+
+/* Middle Main Content */
+
+#middle-main-content {
+    margin-top: 40px;
+}
+
+/* Top left body */
+
+#top-left-body {
+    width: 500px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #292929;
+}
+
+#top-left {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#web-fun {
+    align-items: center;
+}
+
+#web-fun p {
+    font-size: 19px;
+}
+
+#web-fun , #top-left h1 {
+    color: #fff;
+}
+
+/* Progress top */
+
+#progress {
+    color: #fff;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#on-time {
+    align-items: center;
+}
+
+#out-of {
+    margin-left: 20px;
+    align-items: center;
+}
+
+.boxes {
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+/* middle top left */
+
+.tracks-content {
+    margin-top: 35px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tracks {
+    align-items: center;
+}
+
+.tracks-desc {
+    color: #fff;
+    font-size: 19px;
+}
+
+.track-img {
+    margin-right: 15px;
+    align-items: center;
+    height: 30px;
+}
+
+.array {
+    width: 27px;
+}
+
+.completion {
+    background-color: #3B6B5F;
+    color: #4CE164;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* Bottom Left Content */
+
+#bottom-left-content {
+    background-color: #292929;
+    width: 500px;
+    height: 100%;
+    padding: 30px 30px 0px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#bottom-left-content h1 {
+    color: #fff;
+}
+
+#belt-container {
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#belt-container h1 {
+    color: #fff;
+}
+
+.belt-images {
+    margin-top: 40px;
+    align-content: center;
+}
+
+.belt-desc {
+    margin-left: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.belt-desc p {
+    color: #fff;
+    margin-top: 20px;
+} 
+
+
+.belts {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.web-program {
+    margin-left: 40px;
+}
+
+.middle {
+    margin-right: 10px;
+}
+
+#belt-container p {
+    margin: 20px;
+    color: #fff;
+    font-size: 13px;
+}
+
+/* right content */
+
+#right-container {
+    background-color: #292929;
+    margin-left: 20px;
+    width: 800px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#right-content {
+    padding: 30px 20px;
+}
+
+/* Top right */
+
+#top-right {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#top-right h1 {
+    color: #fff;
+}
+
+#top-right a {
+    color: #81A0CB;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.heading-track {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Pre web */
+
+#pre-web {
+    background-color: #333333;
+    padding: 0px 60px 0px 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pre-web img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+#pre-web h3 {
+    color: #81A0CB;
+}
+
+/* career services - web fundamentals */
+
+#major {
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.services-web {
+    background-color: #333333;
+    padding: 60px 20px;
+    width: 285px;
+    align-items: center;
+    border-radius: 5px;
+    color: #81A0CB;
+}
+
+.screen {
+    height: 100px;
+    width: 124px;
+}
+
+/* other container */
+
+#other-container {
+    justify-content: space-between;
+}
+
+/* other tracks */
+
+.other-tracks {
+    background-color: #333333;
+    color: #5A5A56;
+    padding: 0px 20px;
+    margin-bottom: 40px;
+    width: 285px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.other-tracks:not(:first-of-type) {
+    margin-top: 30px;
+}
+
+.other {
+    margin-right: 15px;
+}
+
+/* alumni pass */
+
+#unlock {
+    background-color: #333333;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: #5A5A56;
+}
+
+#unlock img {
+    height: 100px;
+    width: 100px;
+    margin-right: 75px;
+}
+
+
+
+
+
+
+
